@@ -126,7 +126,7 @@ function App() {
 
       {step === "download" && (
         <>
-          <h2 style={{ textAlign: "center" }}>운영체제 8장 필기 정리본 다운로드</h2>
+          <h2 style={{ textAlign: "center" }}>운영체제 8장 필기본 다운로드</h2>
           <a href="/운영체제 8장 정리본.pdf" download style={{ display: "block", textAlign: "center" }}>
             <button
               style={{
