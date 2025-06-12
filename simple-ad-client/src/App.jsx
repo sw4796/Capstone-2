@@ -58,7 +58,7 @@ function App() {
     >
       {step === "main" && (
         <>
-          <h1 style={{ textAlign: "center" }}>필기 정리본 받기</h1>
+          <h1 style={{ textAlign: "center" }}>필기본 받기</h1>
           <button
             style={{
               padding: "14px 36px",
@@ -76,14 +76,14 @@ function App() {
             }}
             onClick={() => setStep("ad")}
           >
-            필기 정리본 받기
+            필기본 받기
           </button>
         </>
       )}
 
       {step === "ad" && (
         <>
-          <h2 style={{ textAlign: "center" }}>광고를 끝까지 보면 정리본 다운로드가 가능합니다</h2>
+          <h2 style={{ textAlign: "center" }}>광고를 끝까지 보면 필기본 다운로드가 가능합니다</h2>
           <video
             ref={videoRef}
             width="480"
@@ -126,8 +126,8 @@ function App() {
 
       {step === "download" && (
         <>
-          <h2 style={{ textAlign: "center" }}>운영체제 6장 필기 정리본 다운로드</h2>
-          <a href="/운영체제 6장 정리본.pdf" download style={{ display: "block", textAlign: "center" }}>
+          <h2 style={{ textAlign: "center" }}>운영체제 8장 필기 정리본 다운로드</h2>
+          <a href="/운영체제 8장 정리본.pdf" download style={{ display: "block", textAlign: "center" }}>
             <button
               style={{
                 padding: "14px 36px",
